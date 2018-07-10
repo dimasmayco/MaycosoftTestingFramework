@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE67D0FA12858BA7ED00270 /* Pods_MaycosoftTestingFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB01DA0C6D0D2ADCCF62AB3 /* Pods_MaycosoftTestingFrameworkDemo.framework */; };
+		1388101B20F4870700F5B983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388101A20F4870700F5B983 /* AppDelegate.swift */; };
+		1388101D20F4870800F5B983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388101C20F4870800F5B983 /* ViewController.swift */; };
+		1388102020F4870800F5B983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1388101E20F4870800F5B983 /* Main.storyboard */; };
+		1388102220F4870900F5B983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1388102120F4870900F5B983 /* Assets.xcassets */; };
+		1388102520F4870900F5B983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1388102320F4870900F5B983 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1388101720F4870700F5B983 /* MaycosoftTestingFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaycosoftTestingFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1388101A20F4870700F5B983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1388101C20F4870800F5B983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1388101F20F4870800F5B983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1388102120F4870900F5B983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1388102420F4870900F5B983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1388102620F4870900F5B983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B7548E16651658E1E62426 /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB01DA0C6D0D2ADCCF62AB3 /* Pods_MaycosoftTestingFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaycosoftTestingFrameworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE1F0C6DE57393CFA683CD1 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaycosoftTestingFrameworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1388101420F4870700F5B983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE67D0FA12858BA7ED00270 /* Pods_MaycosoftTestingFrameworkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1388100E20F4870700F5B983 = {
+			isa = PBXGroup;
+			children = (
+				1388101920F4870700F5B983 /* MaycosoftTestingFrameworkDemo */,
+				1388101820F4870700F5B983 /* Products */,
+				D8ABBB5B2F5F7B0953097573 /* Pods */,
+				2714B3AA7E4849B32E1A1566 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1388101820F4870700F5B983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1388101720F4870700F5B983 /* MaycosoftTestingFrameworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1388101920F4870700F5B983 /* MaycosoftTestingFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1388101A20F4870700F5B983 /* AppDelegate.swift */,
+				1388101C20F4870800F5B983 /* ViewController.swift */,
+				1388101E20F4870800F5B983 /* Main.storyboard */,
+				1388102120F4870900F5B983 /* Assets.xcassets */,
+				1388102320F4870900F5B983 /* LaunchScreen.storyboard */,
+				1388102620F4870900F5B983 /* Info.plist */,
+			);
+			path = MaycosoftTestingFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		2714B3AA7E4849B32E1A1566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB01DA0C6D0D2ADCCF62AB3 /* Pods_MaycosoftTestingFrameworkDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8ABBB5B2F5F7B0953097573 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56B7548E16651658E1E62426 /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */,
+				6BE1F0C6DE57393CFA683CD1 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1388101620F4870700F5B983 /* MaycosoftTestingFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1388102920F4870900F5B983 /* Build configuration list for PBXNativeTarget "MaycosoftTestingFrameworkDemo" */;
+			buildPhases = (
+				9B9AB6ADB4F9658AE6F7403E /* [CP] Check Pods Manifest.lock */,
+				1388101320F4870700F5B983 /* Sources */,
+				1388101420F4870700F5B983 /* Frameworks */,
+				1388101520F4870700F5B983 /* Resources */,
+				5975A0938F8A9841B1C2E1FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaycosoftTestingFrameworkDemo;
+			productName = MaycosoftTestingFrameworkDemo;
+			productReference = 1388101720F4870700F5B983 /* MaycosoftTestingFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1388100F20F4870700F5B983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Maycosoft;
+				TargetAttributes = {
+					1388101620F4870700F5B983 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 1388101220F4870700F5B983 /* Build configuration list for PBXProject "MaycosoftTestingFrameworkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1388100E20F4870700F5B983;
+			productRefGroup = 1388101820F4870700F5B983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1388101620F4870700F5B983 /* MaycosoftTestingFrameworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1388101520F4870700F5B983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1388102520F4870900F5B983 /* LaunchScreen.storyboard in Resources */,
+				1388102220F4870900F5B983 /* Assets.xcassets in Resources */,
+				1388102020F4870800F5B983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5975A0938F8A9841B1C2E1FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MaycosoftTestingFramework/MaycosoftTestingFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaycosoftTestingFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9AB6ADB4F9658AE6F7403E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaycosoftTestingFrameworkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1388101320F4870700F5B983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1388101D20F4870800F5B983 /* ViewController.swift in Sources */,
+				1388101B20F4870700F5B983 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1388101E20F4870800F5B983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1388101F20F4870800F5B983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1388102320F4870900F5B983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1388102420F4870900F5B983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1388102720F4870900F5B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1388102820F4870900F5B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1388102A20F4870900F5B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B7548E16651658E1E62426 /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaycosoftTestingFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maycosoft.random.ios.MaycosoftTestingFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1388102B20F4870900F5B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE1F0C6DE57393CFA683CD1 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaycosoftTestingFrameworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maycosoft.random.ios.MaycosoftTestingFrameworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1388101220F4870700F5B983 /* Build configuration list for PBXProject "MaycosoftTestingFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1388102720F4870900F5B983 /* Debug */,
+				1388102820F4870900F5B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1388102920F4870900F5B983 /* Build configuration list for PBXNativeTarget "MaycosoftTestingFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1388102A20F4870900F5B983 /* Debug */,
+				1388102B20F4870900F5B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1388100F20F4870700F5B983 /* Project object */;
+}

@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AC532D2F2905BD6DEF75A3E32BEB59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		02D6EDB4195C4F792B000E2A493D8742 /* Pods-MaycosoftTestingFrameworkDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0D7BF2DE352CBFEB43ECC2A5953A05 /* Pods-MaycosoftTestingFrameworkDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD5ABA3EB2D9992C2AE758F2045C37D /* Maycosoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB66C68DB45023D3DEDD3FD45421F23 /* Maycosoft.swift */; };
+		2232568381ED992CB048043B6D05654C /* Pods-MaycosoftTestingFrameworkDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B93244F14137677419FC0A64F52CDFA1 /* Pods-MaycosoftTestingFrameworkDemo-dummy.m */; };
+		4C5B07151B2CB7DA45FB8AA1602DA750 /* MaycosoftTestingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 503F4A874E3578D90398C5CC4B6135DE /* MaycosoftTestingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6F5AD1FAE23A7EFCDFD66B443A5539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CC3D7133465FCF05F4A1D6501277C1CB /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 7D969F83F708DAD25EB4D021817640A9 /* Info.plist */; };
+		E272FDF5696E6C24089AC4BE6F391739 /* MaycosoftTestingFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9ECFF732B9C12A468EC67DA0465754 /* MaycosoftTestingFramework-dummy.m */; };
+		F47A87E34C57849232936D8CF444A58F /* MaycosoftTestingFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6296E7089D3A74E473DD1B38D9367D3 /* MaycosoftTestingFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C1AB091C32E32FBC657898A35EFCF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8158D98CA60D5754070C3DAC6C7BDFBD;
+			remoteInfo = MaycosoftTestingFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005E98EC217FDE1BA8905649B2D9F978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DDBEE32EF169565DD439A24AA3E868 /* MaycosoftTestingFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MaycosoftTestingFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2BD3748158F2030A47AF5DB0671EB38D /* MaycosoftTestingFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaycosoftTestingFramework-prefix.pch"; sourceTree = "<group>"; };
+		2C9ECFF732B9C12A468EC67DA0465754 /* MaycosoftTestingFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaycosoftTestingFramework-dummy.m"; sourceTree = "<group>"; };
+		3556222EA9E7A6A5902B243256D04051 /* Pods-MaycosoftTestingFrameworkDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaycosoftTestingFrameworkDemo-frameworks.sh"; sourceTree = "<group>"; };
+		38DED87BC956AE9D24C20B712987CCF8 /* Pods-MaycosoftTestingFrameworkDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaycosoftTestingFrameworkDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A0DEB1AC27DF5302BF43A431748C885 /* Pods_MaycosoftTestingFrameworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaycosoftTestingFrameworkDemo.framework; path = "Pods-MaycosoftTestingFrameworkDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503F4A874E3578D90398C5CC4B6135DE /* MaycosoftTestingFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaycosoftTestingFramework.h; path = MaycosoftTestingFramework/MaycosoftTestingFramework.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C92D2695E388F616A35AAF37498FED5 /* MaycosoftTestingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaycosoftTestingFramework.framework; path = MaycosoftTestingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652EB0A3B3353254766119E99C20163B /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6F892ECA593286F3377353EF41651B12 /* Pods-MaycosoftTestingFrameworkDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaycosoftTestingFrameworkDemo.modulemap"; sourceTree = "<group>"; };
+		7D969F83F708DAD25EB4D021817640A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = MaycosoftTestingFramework/Info.plist; sourceTree = "<group>"; };
+		8017BBD0A0B3FDC018562F16C1901DD0 /* MaycosoftTestingFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaycosoftTestingFramework.xcconfig; sourceTree = "<group>"; };
+		8237A5FC20E6155E039B38788B93B7A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0D7BF2DE352CBFEB43ECC2A5953A05 /* Pods-MaycosoftTestingFrameworkDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaycosoftTestingFrameworkDemo-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6296E7089D3A74E473DD1B38D9367D3 /* MaycosoftTestingFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaycosoftTestingFramework-umbrella.h"; sourceTree = "<group>"; };
+		AC8377B8E70161B4E9500E9C1DE91D44 /* MaycosoftTestingFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaycosoftTestingFramework.modulemap; sourceTree = "<group>"; };
+		B3518916B1D73039A3ACEBA40D1BC975 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaycosoftTestingFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B93244F14137677419FC0A64F52CDFA1 /* Pods-MaycosoftTestingFrameworkDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaycosoftTestingFrameworkDemo-dummy.m"; sourceTree = "<group>"; };
+		C82CA57625E8BCD8D3CA70F9B24D996F /* Pods-MaycosoftTestingFrameworkDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaycosoftTestingFrameworkDemo-resources.sh"; sourceTree = "<group>"; };
+		CAB66C68DB45023D3DEDD3FD45421F23 /* Maycosoft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maycosoft.swift; path = MaycosoftTestingFramework/Maycosoft.swift; sourceTree = "<group>"; };
+		FF9110BED5DF0856C205525F4231EEF6 /* Pods-MaycosoftTestingFrameworkDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaycosoftTestingFrameworkDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C12F590B1E049E23EB6EC5959E70E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC532D2F2905BD6DEF75A3E32BEB59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05B025D01DB19180C6E386F5A8E74BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F5AD1FAE23A7EFCDFD66B443A5539 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DCF190A039E73DE7CC6BA26737ECFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C92D2695E388F616A35AAF37498FED5 /* MaycosoftTestingFramework.framework */,
+				3A0DEB1AC27DF5302BF43A431748C885 /* Pods_MaycosoftTestingFrameworkDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FB36C815B08FBEFD34437D5EBBCB75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF2DCB68B62314AA184EB3F14DC091AC /* MaycosoftTestingFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5CB14C1E520480F317B7DDF115FE80AD /* Pods-MaycosoftTestingFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8237A5FC20E6155E039B38788B93B7A7 /* Info.plist */,
+				6F892ECA593286F3377353EF41651B12 /* Pods-MaycosoftTestingFrameworkDemo.modulemap */,
+				FF9110BED5DF0856C205525F4231EEF6 /* Pods-MaycosoftTestingFrameworkDemo-acknowledgements.markdown */,
+				38DED87BC956AE9D24C20B712987CCF8 /* Pods-MaycosoftTestingFrameworkDemo-acknowledgements.plist */,
+				B93244F14137677419FC0A64F52CDFA1 /* Pods-MaycosoftTestingFrameworkDemo-dummy.m */,
+				3556222EA9E7A6A5902B243256D04051 /* Pods-MaycosoftTestingFrameworkDemo-frameworks.sh */,
+				C82CA57625E8BCD8D3CA70F9B24D996F /* Pods-MaycosoftTestingFrameworkDemo-resources.sh */,
+				8A0D7BF2DE352CBFEB43ECC2A5953A05 /* Pods-MaycosoftTestingFrameworkDemo-umbrella.h */,
+				652EB0A3B3353254766119E99C20163B /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */,
+				B3518916B1D73039A3ACEBA40D1BC975 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */,
+			);
+			name = "Pods-MaycosoftTestingFrameworkDemo";
+			path = "Target Support Files/Pods-MaycosoftTestingFrameworkDemo";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		63D62CDECA6E9212F08463EBAB49D185 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				005E98EC217FDE1BA8905649B2D9F978 /* Info.plist */,
+				AC8377B8E70161B4E9500E9C1DE91D44 /* MaycosoftTestingFramework.modulemap */,
+				8017BBD0A0B3FDC018562F16C1901DD0 /* MaycosoftTestingFramework.xcconfig */,
+				2C9ECFF732B9C12A468EC67DA0465754 /* MaycosoftTestingFramework-dummy.m */,
+				2BD3748158F2030A47AF5DB0671EB38D /* MaycosoftTestingFramework-prefix.pch */,
+				A6296E7089D3A74E473DD1B38D9367D3 /* MaycosoftTestingFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../MaycosoftTestingFrameworkDemo/Pods/Target Support Files/MaycosoftTestingFramework";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				32FB36C815B08FBEFD34437D5EBBCB75 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				23DCF190A039E73DE7CC6BA26737ECFE /* Products */,
+				E0D52B06730F5326CED1ED9F1FAB4DC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0D52B06730F5326CED1ED9F1FAB4DC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB14C1E520480F317B7DDF115FE80AD /* Pods-MaycosoftTestingFrameworkDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F418F70C3E07BF7FF002A568E8F9FFCE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				10DDBEE32EF169565DD439A24AA3E868 /* MaycosoftTestingFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FF2DCB68B62314AA184EB3F14DC091AC /* MaycosoftTestingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7D969F83F708DAD25EB4D021817640A9 /* Info.plist */,
+				CAB66C68DB45023D3DEDD3FD45421F23 /* Maycosoft.swift */,
+				503F4A874E3578D90398C5CC4B6135DE /* MaycosoftTestingFramework.h */,
+				F418F70C3E07BF7FF002A568E8F9FFCE /* Pod */,
+				63D62CDECA6E9212F08463EBAB49D185 /* Support Files */,
+			);
+			name = MaycosoftTestingFramework;
+			path = ../../MaycosoftTestingFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A5B719B48C85BC035F7C26F6DE36423 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D6EDB4195C4F792B000E2A493D8742 /* Pods-MaycosoftTestingFrameworkDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC87F8E3A6FCC5DE1FAEDA6F90025B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47A87E34C57849232936D8CF444A58F /* MaycosoftTestingFramework-umbrella.h in Headers */,
+				4C5B07151B2CB7DA45FB8AA1602DA750 /* MaycosoftTestingFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12C3E8F7C280D31F57176DA759029F28 /* Pods-MaycosoftTestingFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80A4BDBB5C83A61BDFDE6A518FE17B1 /* Build configuration list for PBXNativeTarget "Pods-MaycosoftTestingFrameworkDemo" */;
+			buildPhases = (
+				A849B469EDE3DAE6E72973336EF0B354 /* Sources */,
+				74C12F590B1E049E23EB6EC5959E70E4 /* Frameworks */,
+				1A5B719B48C85BC035F7C26F6DE36423 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50974942AED4641D7F805449DD75033B /* PBXTargetDependency */,
+			);
+			name = "Pods-MaycosoftTestingFrameworkDemo";
+			productName = "Pods-MaycosoftTestingFrameworkDemo";
+			productReference = 3A0DEB1AC27DF5302BF43A431748C885 /* Pods_MaycosoftTestingFrameworkDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8158D98CA60D5754070C3DAC6C7BDFBD /* MaycosoftTestingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DC2D0467BFFAADD1CFB3A284EC7A50 /* Build configuration list for PBXNativeTarget "MaycosoftTestingFramework" */;
+			buildPhases = (
+				DC145D3E3ABAF428326AE4DBCCCACC60 /* Sources */,
+				A05B025D01DB19180C6E386F5A8E74BC /* Frameworks */,
+				DDC87F8E3A6FCC5DE1FAEDA6F90025B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaycosoftTestingFramework;
+			productName = MaycosoftTestingFramework;
+			productReference = 5C92D2695E388F616A35AAF37498FED5 /* MaycosoftTestingFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 23DCF190A039E73DE7CC6BA26737ECFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8158D98CA60D5754070C3DAC6C7BDFBD /* MaycosoftTestingFramework */,
+				12C3E8F7C280D31F57176DA759029F28 /* Pods-MaycosoftTestingFrameworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A849B469EDE3DAE6E72973336EF0B354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2232568381ED992CB048043B6D05654C /* Pods-MaycosoftTestingFrameworkDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC145D3E3ABAF428326AE4DBCCCACC60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D7133465FCF05F4A1D6501277C1CB /* Info.plist in Sources */,
+				0CD5ABA3EB2D9992C2AE758F2045C37D /* Maycosoft.swift in Sources */,
+				E272FDF5696E6C24089AC4BE6F391739 /* MaycosoftTestingFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50974942AED4641D7F805449DD75033B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaycosoftTestingFramework;
+			target = 8158D98CA60D5754070C3DAC6C7BDFBD /* MaycosoftTestingFramework */;
+			targetProxy = D7C1AB091C32E32FBC657898A35EFCF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20D7F3532D5EED32649EE6D1E3635D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3518916B1D73039A3ACEBA40D1BC975 /* Pods-MaycosoftTestingFrameworkDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FF520A4A59B7E858A4749639DA988C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8017BBD0A0B3FDC018562F16C1901DD0 /* MaycosoftTestingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaycosoftTestingFramework/MaycosoftTestingFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaycosoftTestingFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaycosoftTestingFramework/MaycosoftTestingFramework.modulemap";
+				PRODUCT_MODULE_NAME = MaycosoftTestingFramework;
+				PRODUCT_NAME = MaycosoftTestingFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33956727968C8F7A5E8DBB6489A360A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652EB0A3B3353254766119E99C20163B /* Pods-MaycosoftTestingFrameworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaycosoftTestingFrameworkDemo/Pods-MaycosoftTestingFrameworkDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCE6336F6D2A04F3D4704E0D8BA3172C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8017BBD0A0B3FDC018562F16C1901DD0 /* MaycosoftTestingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaycosoftTestingFramework/MaycosoftTestingFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaycosoftTestingFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaycosoftTestingFramework/MaycosoftTestingFramework.modulemap";
+				PRODUCT_MODULE_NAME = MaycosoftTestingFramework;
+				PRODUCT_NAME = MaycosoftTestingFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26DC2D0467BFFAADD1CFB3A284EC7A50 /* Build configuration list for PBXNativeTarget "MaycosoftTestingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6336F6D2A04F3D4704E0D8BA3172C /* Debug */,
+				2FF520A4A59B7E858A4749639DA988C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80A4BDBB5C83A61BDFDE6A518FE17B1 /* Build configuration list for PBXNativeTarget "Pods-MaycosoftTestingFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33956727968C8F7A5E8DBB6489A360A1 /* Debug */,
+				20D7F3532D5EED32649EE6D1E3635D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

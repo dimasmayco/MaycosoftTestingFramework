@@ -1,0 +1,6 @@
+framework module MaycosoftTestingFramework {
+  umbrella header "MaycosoftTestingFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

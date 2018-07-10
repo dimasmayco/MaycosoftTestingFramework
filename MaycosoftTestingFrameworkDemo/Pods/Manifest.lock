@@ -1,0 +1,16 @@
+PODS:
+  - MaycosoftTestingFramework (1.0.0)
+
+DEPENDENCIES:
+  - MaycosoftTestingFramework (from `../MaycosoftTestingFramework/`)
+
+EXTERNAL SOURCES:
+  MaycosoftTestingFramework:
+    :path: "../MaycosoftTestingFramework/"
+
+SPEC CHECKSUMS:
+  MaycosoftTestingFramework: da0f1de9f1c7c6cd8900def0512fdf1c8d1d8fa9
+
+PODFILE CHECKSUM: 6a1d3acd91ca45f71c3ee92ca28735b0cba21a96
+
+COCOAPODS: 1.5.3
